@@ -1,0 +1,2 @@
+Web Color: #FF0020
+Font: Century Gothic
