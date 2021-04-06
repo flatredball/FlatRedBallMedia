@@ -9,8 +9,8 @@
   <terrain name="OverworldTrees" tile="846"/>
   <terrain name="PlatformGrass" tile="322"/>
   <terrain name="PlatformBackground" tile="327"/>
-  <terrain name="PlatformClouds" tile="455"/>
-  <terrain name="PlatformBushes" tile="557"/>
+  <terrain name="PlatformClouds" tile="489"/>
+  <terrain name="PlatformBushes" tile="496"/>
  </terraintypes>
  <tile id="320" terrain=",,,5"/>
  <tile id="321" terrain=",,5,5"/>
@@ -45,10 +45,6 @@
  <tile id="390" terrain="6,6,,"/>
  <tile id="391" terrain="6,,,"/>
  <tile id="392" terrain="6,6,6,6" probability="0.01"/>
- <tile id="395" terrain=",8,,"/>
- <tile id="396" terrain="8,,,"/>
- <tile id="397" terrain=",,,8"/>
- <tile id="398" terrain=",,8,"/>
  <tile id="416" terrain=",,5,5" probability="0.2"/>
  <tile id="417" terrain=",,5,5" probability="0.2"/>
  <tile id="418" terrain=",5,,5" probability="0.05"/>
@@ -58,42 +54,40 @@
  <tile id="423" terrain=",,7,"/>
  <tile id="424" terrain="7,7,7,"/>
  <tile id="425" terrain="7,7,,7"/>
- <tile id="427" terrain=",,8,8"/>
- <tile id="428" terrain=",,8,8"/>
- <tile id="429" terrain=",8,,8"/>
- <tile id="430" terrain="8,,8,"/>
+ <tile id="426" terrain=",,,7"/>
+ <tile id="427" terrain=",,7,"/>
+ <tile id="428" terrain=",,,8"/>
+ <tile id="429" terrain=",,8,8"/>
+ <tile id="430" terrain=",,8,"/>
+ <tile id="431" terrain="8,8,8,"/>
+ <tile id="432" terrain="8,8,,8"/>
  <tile id="453" terrain=",7,,7"/>
  <tile id="454" terrain="7,7,7,7"/>
  <tile id="455" terrain="7,,7,"/>
  <tile id="456" terrain="7,,7,7"/>
  <tile id="457" terrain=",7,7,7"/>
- <tile id="459" terrain="8,8,,"/>
- <tile id="460" terrain="8,8,,"/>
- <tile id="461" terrain=",8,,8"/>
+ <tile id="458" terrain=",7,,"/>
+ <tile id="459" terrain="7,,,"/>
+ <tile id="460" terrain=",8,,8"/>
+ <tile id="461" terrain="8,8,8,8"/>
  <tile id="462" terrain="8,,8,"/>
+ <tile id="463" terrain="8,,8,8"/>
+ <tile id="464" terrain=",8,8,8"/>
  <tile id="485" terrain=",7,,"/>
  <tile id="486" terrain="7,7,,"/>
  <tile id="487" terrain="7,,,"/>
  <tile id="488" terrain="7,7,7,7" probability="0.01"/>
  <tile id="489" terrain="7,7,7,7"/>
- <tile id="490" terrain=",,,8"/>
- <tile id="491" terrain=",,8,8"/>
- <tile id="492" terrain=",,8,"/>
- <tile id="493" terrain="8,8,8,"/>
- <tile id="494" terrain="8,8,,8"/>
+ <tile id="492" terrain=",8,,"/>
+ <tile id="493" terrain="8,8,,"/>
+ <tile id="494" terrain="8,,,"/>
+ <tile id="495" terrain="8,8,8,8" probability="0.01"/>
+ <tile id="496" terrain="8,8,8,8" probability="0.01"/>
  <tile id="517" terrain=",7,,7"/>
  <tile id="518" terrain="7,,7,"/>
  <tile id="519" terrain=",,7,7"/>
  <tile id="520" terrain="7,7,,"/>
- <tile id="522" terrain=",8,,8"/>
- <tile id="523" terrain="8,8,8,8"/>
- <tile id="524" terrain="8,,8,"/>
- <tile id="525" terrain="8,,8,8"/>
- <tile id="526" terrain=",8,8,8"/>
- <tile id="554" terrain=",8,,"/>
- <tile id="555" terrain="8,8,,"/>
- <tile id="556" terrain="8,,,"/>
- <tile id="557" terrain="8,8,8,8" probability="0.01"/>
+ <tile id="557" probability="0.01"/>
  <tile id="800" terrain="1,1,1,1"/>
  <tile id="835" terrain="0,0,0,2"/>
  <tile id="836" terrain="0,0,2,2"/>
