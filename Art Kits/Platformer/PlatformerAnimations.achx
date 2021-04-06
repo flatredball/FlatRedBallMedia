@@ -12,6 +12,7 @@
       <RightCoordinate>16</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -24,6 +25,7 @@
       <RightCoordinate>16</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -35,6 +37,7 @@
       <RightCoordinate>16</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <TextureName>frbplatformer.png</TextureName>
@@ -43,6 +46,7 @@
       <RightCoordinate>32</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -55,6 +59,7 @@
       <RightCoordinate>16</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <FlipHorizontal>true</FlipHorizontal>
@@ -64,6 +69,7 @@
       <RightCoordinate>32</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -75,6 +81,7 @@
       <RightCoordinate>80</RightCoordinate>
       <TopCoordinate>32</TopCoordinate>
       <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <TextureName>frbplatformer.png</TextureName>
@@ -83,6 +90,7 @@
       <RightCoordinate>96</RightCoordinate>
       <TopCoordinate>32</TopCoordinate>
       <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -95,6 +103,7 @@
       <RightCoordinate>80</RightCoordinate>
       <TopCoordinate>32</TopCoordinate>
       <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <FlipHorizontal>true</FlipHorizontal>
@@ -104,6 +113,19 @@
       <RightCoordinate>96</RightCoordinate>
       <TopCoordinate>32</TopCoordinate>
       <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>CharacterRunJumpRight</Name>
+    <Frame>
+      <TextureName>frbplatformer.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>96</LeftCoordinate>
+      <RightCoordinate>112</RightCoordinate>
+      <TopCoordinate>64</TopCoordinate>
+      <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -116,6 +138,7 @@
       <RightCoordinate>48</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -127,6 +150,7 @@
       <RightCoordinate>48</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -138,6 +162,20 @@
       <RightCoordinate>64</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>CharacterRunJumpLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>frbplatformer.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>96</LeftCoordinate>
+      <RightCoordinate>112</RightCoordinate>
+      <TopCoordinate>64</TopCoordinate>
+      <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -150,6 +188,7 @@
       <RightCoordinate>64</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -161,6 +200,7 @@
       <RightCoordinate>80</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <FlipHorizontal>true</FlipHorizontal>
@@ -170,6 +210,7 @@
       <RightCoordinate>80</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -181,6 +222,7 @@
       <RightCoordinate>96</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <FlipHorizontal>true</FlipHorizontal>
@@ -190,6 +232,7 @@
       <RightCoordinate>96</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -201,10 +244,11 @@
       <RightCoordinate>112</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
-    <Name>CharacterDuck</Name>
+    <Name>CharacterDuckRight</Name>
     <Frame>
       <TextureName>frbplatformer.png</TextureName>
       <FrameLength>0.1</FrameLength>
@@ -212,10 +256,37 @@
       <RightCoordinate>128</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
-    <Name>CharacterLookUp</Name>
+    <Name>CharacterDuckLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>frbplatformer.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>112</LeftCoordinate>
+      <RightCoordinate>128</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>CharacterLookUpLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>frbplatformer.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>128</LeftCoordinate>
+      <RightCoordinate>144</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>CharacterLookUpRight</Name>
     <Frame>
       <TextureName>frbplatformer.png</TextureName>
       <FrameLength>0.1</FrameLength>
@@ -223,6 +294,7 @@
       <RightCoordinate>144</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -234,6 +306,7 @@
       <RightCoordinate>16</RightCoordinate>
       <TopCoordinate>32</TopCoordinate>
       <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -246,6 +319,7 @@
       <RightCoordinate>16</RightCoordinate>
       <TopCoordinate>32</TopCoordinate>
       <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -257,6 +331,7 @@
       <RightCoordinate>32</RightCoordinate>
       <TopCoordinate>32</TopCoordinate>
       <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -269,6 +344,7 @@
       <RightCoordinate>32</RightCoordinate>
       <TopCoordinate>32</TopCoordinate>
       <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -280,6 +356,7 @@
       <RightCoordinate>64</RightCoordinate>
       <TopCoordinate>32</TopCoordinate>
       <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -292,6 +369,7 @@
       <RightCoordinate>64</RightCoordinate>
       <TopCoordinate>32</TopCoordinate>
       <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -304,6 +382,7 @@
       <RightCoordinate>16</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -315,6 +394,7 @@
       <RightCoordinate>16</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -327,6 +407,7 @@
       <RightCoordinate>32</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -338,6 +419,7 @@
       <RightCoordinate>32</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -349,6 +431,7 @@
       <RightCoordinate>64</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <TextureName>frbplatformer.png</TextureName>
@@ -357,6 +440,7 @@
       <RightCoordinate>80</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -369,6 +453,7 @@
       <RightCoordinate>64</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <FlipHorizontal>true</FlipHorizontal>
@@ -378,6 +463,7 @@
       <RightCoordinate>80</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -389,6 +475,7 @@
       <RightCoordinate>112</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <TextureName>frbplatformer.png</TextureName>
@@ -397,6 +484,7 @@
       <RightCoordinate>128</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <TextureName>frbplatformer.png</TextureName>
@@ -405,6 +493,7 @@
       <RightCoordinate>144</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <TextureName>frbplatformer.png</TextureName>
@@ -413,6 +502,7 @@
       <RightCoordinate>128</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
@@ -425,6 +515,7 @@
       <RightCoordinate>112</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <FlipHorizontal>true</FlipHorizontal>
@@ -434,6 +525,7 @@
       <RightCoordinate>128</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <FlipHorizontal>true</FlipHorizontal>
@@ -443,6 +535,7 @@
       <RightCoordinate>144</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <FlipHorizontal>true</FlipHorizontal>
@@ -452,6 +545,7 @@
       <RightCoordinate>128</RightCoordinate>
       <TopCoordinate>64</TopCoordinate>
       <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
   <AnimationChain>
