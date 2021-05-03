@@ -11,6 +11,8 @@
   <terrain name="PlatformBackground" tile="327"/>
   <terrain name="PlatformClouds" tile="489"/>
   <terrain name="PlatformBushes" tile="496"/>
+  <terrain name="PlatformBrick" tile="450"/>
+  <terrain name="PlatformBackgroundDark" tile="335"/>
  </terraintypes>
  <tile id="320" terrain=",,,5"/>
  <tile id="321" terrain=",,5,5"/>
@@ -24,6 +26,13 @@
  <tile id="329" terrain="6,6,,6"/>
  <tile id="330" terrain=",,,6"/>
  <tile id="331" terrain=",,6,"/>
+ <tile id="333" terrain=",,,10"/>
+ <tile id="334" terrain=",,10,10"/>
+ <tile id="335" terrain=",,10,"/>
+ <tile id="336" terrain="10,10,10,"/>
+ <tile id="337" terrain="10,10,,10"/>
+ <tile id="338" terrain=",,,10"/>
+ <tile id="339" terrain=",,10,"/>
  <tile id="352" terrain=",5,,5"/>
  <tile id="353" terrain="5,5,5,5"/>
  <tile id="354" terrain="5,,5,"/>
@@ -36,6 +45,13 @@
  <tile id="361" terrain=",6,6,6"/>
  <tile id="362" terrain=",6,,"/>
  <tile id="363" terrain="6,,,"/>
+ <tile id="365" terrain=",10,,10"/>
+ <tile id="366" terrain="10,10,10,10"/>
+ <tile id="367" terrain="10,,10,"/>
+ <tile id="368" terrain="10,,10,10"/>
+ <tile id="369" terrain=",10,10,10"/>
+ <tile id="370" terrain=",10,,"/>
+ <tile id="371" terrain="10,,,"/>
  <tile id="384" terrain=",5,,"/>
  <tile id="385" terrain="5,5,,"/>
  <tile id="386" terrain="5,,,"/>
@@ -45,6 +61,10 @@
  <tile id="390" terrain="6,6,,"/>
  <tile id="391" terrain="6,,,"/>
  <tile id="392" terrain="6,6,6,6" probability="0.01"/>
+ <tile id="397" terrain=",10,,"/>
+ <tile id="398" terrain="10,10,,"/>
+ <tile id="399" terrain="10,,,"/>
+ <tile id="400" terrain="10,10,10,10" probability="0.01"/>
  <tile id="416" terrain=",,5,5" probability="0.2"/>
  <tile id="417" terrain=",,5,5" probability="0.2"/>
  <tile id="418" terrain=",5,,5" probability="0.05"/>
@@ -61,6 +81,11 @@
  <tile id="430" terrain=",,8,"/>
  <tile id="431" terrain="8,8,8,"/>
  <tile id="432" terrain="8,8,,8"/>
+ <tile id="448" terrain=",,,9"/>
+ <tile id="449" terrain=",,9,9"/>
+ <tile id="450" terrain=",,9,"/>
+ <tile id="451" terrain="9,9,9,"/>
+ <tile id="452" terrain="9,9,,9"/>
  <tile id="453" terrain=",7,,7"/>
  <tile id="454" terrain="7,7,7,7"/>
  <tile id="455" terrain="7,,7,"/>
@@ -73,6 +98,11 @@
  <tile id="462" terrain="8,,8,"/>
  <tile id="463" terrain="8,,8,8"/>
  <tile id="464" terrain=",8,8,8"/>
+ <tile id="480" terrain=",9,,9"/>
+ <tile id="481" terrain="9,9,9,9"/>
+ <tile id="482" terrain="9,,9,"/>
+ <tile id="483" terrain="9,,9,9"/>
+ <tile id="484" terrain=",9,9,9"/>
  <tile id="485" terrain=",7,,"/>
  <tile id="486" terrain="7,7,,"/>
  <tile id="487" terrain="7,,,"/>
@@ -83,6 +113,9 @@
  <tile id="494" terrain="8,,,"/>
  <tile id="495" terrain="8,8,8,8" probability="0.01"/>
  <tile id="496" terrain="8,8,8,8" probability="0.01"/>
+ <tile id="512" terrain=",9,,"/>
+ <tile id="513" terrain="9,9,,"/>
+ <tile id="514" terrain="9,,,"/>
  <tile id="517" terrain=",7,,7"/>
  <tile id="518" terrain="7,,7,"/>
  <tile id="519" terrain=",,7,7"/>
