@@ -750,4 +750,47 @@
       <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
+  <AnimationChain>
+    <Name>BouncyPlatform</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>frbplatformer.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>208</LeftCoordinate>
+      <RightCoordinate>240</RightCoordinate>
+      <TopCoordinate>48</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>frbplatformer.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>208</LeftCoordinate>
+      <RightCoordinate>240</RightCoordinate>
+      <TopCoordinate>64</TopCoordinate>
+      <BottomCoordinate>80</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>frbplatformer.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>208</LeftCoordinate>
+      <RightCoordinate>240</RightCoordinate>
+      <TopCoordinate>80</TopCoordinate>
+      <BottomCoordinate>96</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>frbplatformer.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>208</LeftCoordinate>
+      <RightCoordinate>240</RightCoordinate>
+      <TopCoordinate>48</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+  </AnimationChain>
 </AnimationChainArraySave>
