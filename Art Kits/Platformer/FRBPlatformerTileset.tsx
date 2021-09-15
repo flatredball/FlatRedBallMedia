@@ -1,185 +1,247 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.3" name="FRBPlatformer" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+<tileset version="1.5" tiledversion="1.7.2" name="FRBPlatformer" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
  <image source="FRBPlatformer.png" width="512" height="512"/>
- <terraintypes>
-  <terrain name="OverworldGrass" tile="928"/>
-  <terrain name="OverworldWater" tile="800"/>
-  <terrain name="OverworldDirt" tile="993"/>
-  <terrain name="OverworldMountains" tile="907"/>
-  <terrain name="OverworldTrees" tile="846"/>
-  <terrain name="PlatformGrass" tile="322"/>
-  <terrain name="PlatformBackground" tile="327"/>
-  <terrain name="PlatformClouds" tile="489"/>
-  <terrain name="PlatformBushes" tile="496"/>
-  <terrain name="PlatformBrick" tile="450"/>
-  <terrain name="PlatformBackgroundDark" tile="335"/>
- </terraintypes>
- <tile id="320" terrain=",,,5"/>
- <tile id="321" terrain=",,5,5"/>
- <tile id="322" terrain=",,5,"/>
- <tile id="323" terrain="5,5,5,"/>
- <tile id="324" terrain="5,5,,5"/>
- <tile id="325" terrain=",,,6"/>
- <tile id="326" terrain=",,6,6"/>
- <tile id="327" terrain=",,6,"/>
- <tile id="328" terrain="6,6,6,"/>
- <tile id="329" terrain="6,6,,6"/>
- <tile id="330" terrain=",,,6"/>
- <tile id="331" terrain=",,6,"/>
- <tile id="333" terrain=",,,10"/>
- <tile id="334" terrain=",,10,10"/>
- <tile id="335" terrain=",,10,"/>
- <tile id="336" terrain="10,10,10,"/>
- <tile id="337" terrain="10,10,,10"/>
- <tile id="338" terrain=",,,10"/>
- <tile id="339" terrain=",,10,"/>
- <tile id="352" terrain=",5,,5"/>
- <tile id="353" terrain="5,5,5,5"/>
- <tile id="354" terrain="5,,5,"/>
- <tile id="355" terrain="5,,5,5"/>
- <tile id="356" terrain=",5,5,5"/>
- <tile id="357" terrain=",6,,6"/>
- <tile id="358" terrain="6,6,6,6"/>
- <tile id="359" terrain="6,,6,"/>
- <tile id="360" terrain="6,,6,6"/>
- <tile id="361" terrain=",6,6,6"/>
- <tile id="362" terrain=",6,,"/>
- <tile id="363" terrain="6,,,"/>
- <tile id="365" terrain=",10,,10"/>
- <tile id="366" terrain="10,10,10,10"/>
- <tile id="367" terrain="10,,10,"/>
- <tile id="368" terrain="10,,10,10"/>
- <tile id="369" terrain=",10,10,10"/>
- <tile id="370" terrain=",10,,"/>
- <tile id="371" terrain="10,,,"/>
- <tile id="384" terrain=",5,,"/>
- <tile id="385" terrain="5,5,,"/>
- <tile id="386" terrain="5,,,"/>
- <tile id="387" terrain="5,5,5,5" probability="0.01"/>
- <tile id="388" terrain="5,5,5,5" probability="0.01"/>
- <tile id="389" terrain=",6,,"/>
- <tile id="390" terrain="6,6,,"/>
- <tile id="391" terrain="6,,,"/>
- <tile id="392" terrain="6,6,6,6" probability="0.01"/>
- <tile id="397" terrain=",10,,"/>
- <tile id="398" terrain="10,10,,"/>
- <tile id="399" terrain="10,,,"/>
- <tile id="400" terrain="10,10,10,10" probability="0.01"/>
- <tile id="416" terrain=",,5,5" probability="0.2"/>
- <tile id="417" terrain=",,5,5" probability="0.2"/>
- <tile id="418" terrain=",5,,5" probability="0.05"/>
- <tile id="419" terrain="5,,5," probability="0.05"/>
- <tile id="421" terrain=",,,7"/>
- <tile id="422" terrain=",,7,7"/>
- <tile id="423" terrain=",,7,"/>
- <tile id="424" terrain="7,7,7,"/>
- <tile id="425" terrain="7,7,,7"/>
- <tile id="426" terrain=",,,7"/>
- <tile id="427" terrain=",,7,"/>
- <tile id="428" terrain=",,,8"/>
- <tile id="429" terrain=",,8,8"/>
- <tile id="430" terrain=",,8,"/>
- <tile id="431" terrain="8,8,8,"/>
- <tile id="432" terrain="8,8,,8"/>
- <tile id="448" terrain=",,,9"/>
- <tile id="449" terrain=",,9,9"/>
- <tile id="450" terrain=",,9,"/>
- <tile id="451" terrain="9,9,9,"/>
- <tile id="452" terrain="9,9,,9"/>
- <tile id="453" terrain=",7,,7"/>
- <tile id="454" terrain="7,7,7,7"/>
- <tile id="455" terrain="7,,7,"/>
- <tile id="456" terrain="7,,7,7"/>
- <tile id="457" terrain=",7,7,7"/>
- <tile id="458" terrain=",7,,"/>
- <tile id="459" terrain="7,,,"/>
- <tile id="460" terrain=",8,,8"/>
- <tile id="461" terrain="8,8,8,8"/>
- <tile id="462" terrain="8,,8,"/>
- <tile id="463" terrain="8,,8,8"/>
- <tile id="464" terrain=",8,8,8"/>
- <tile id="480" terrain=",9,,9"/>
- <tile id="481" terrain="9,9,9,9"/>
- <tile id="482" terrain="9,,9,"/>
- <tile id="483" terrain="9,,9,9"/>
- <tile id="484" terrain=",9,9,9"/>
- <tile id="485" terrain=",7,,"/>
- <tile id="486" terrain="7,7,,"/>
- <tile id="487" terrain="7,,,"/>
- <tile id="488" terrain="7,7,7,7" probability="0.01"/>
- <tile id="489" terrain="7,7,7,7"/>
- <tile id="492" terrain=",8,,"/>
- <tile id="493" terrain="8,8,,"/>
- <tile id="494" terrain="8,,,"/>
- <tile id="495" terrain="8,8,8,8" probability="0.01"/>
- <tile id="496" terrain="8,8,8,8" probability="0.01"/>
- <tile id="512" terrain=",9,,"/>
- <tile id="513" terrain="9,9,,"/>
- <tile id="514" terrain="9,,,"/>
- <tile id="517" terrain=",7,,7"/>
- <tile id="518" terrain="7,,7,"/>
- <tile id="519" terrain=",,7,7"/>
- <tile id="520" terrain="7,7,,"/>
+ <tile id="387" probability="0.01"/>
+ <tile id="388" probability="0.01"/>
+ <tile id="392" probability="0.01"/>
+ <tile id="400" probability="0.01"/>
+ <tile id="416" probability="0.2"/>
+ <tile id="417" probability="0.2"/>
+ <tile id="418" probability="0.05"/>
+ <tile id="419" probability="0.05"/>
+ <tile id="488" probability="0.01"/>
+ <tile id="495" probability="0.01"/>
+ <tile id="496" probability="0.01"/>
  <tile id="557" probability="0.01"/>
- <tile id="800" terrain="1,1,1,1"/>
- <tile id="835" terrain="0,0,0,2"/>
- <tile id="836" terrain="0,0,2,2"/>
- <tile id="837" terrain="0,0,2,0"/>
- <tile id="838" terrain="2,2,2,0"/>
- <tile id="839" terrain="2,2,0,2"/>
- <tile id="840" terrain="0,0,0,3"/>
- <tile id="841" terrain="0,0,3,3"/>
- <tile id="842" terrain="0,0,3,0"/>
- <tile id="843" terrain="3,3,3,0"/>
- <tile id="844" terrain="3,3,0,3"/>
- <tile id="845" terrain="3,3,0,0" probability="0.25"/>
- <tile id="847" terrain="0,0,0,4"/>
- <tile id="848" terrain="0,0,4,4"/>
- <tile id="849" terrain="0,0,4,0"/>
- <tile id="850" terrain="4,4,4,0"/>
- <tile id="851" terrain="4,4,0,4"/>
- <tile id="867" terrain="0,2,0,2"/>
- <tile id="868" terrain="2,2,2,2"/>
- <tile id="869" terrain="2,0,2,0"/>
- <tile id="870" terrain="2,0,2,2"/>
- <tile id="871" terrain="0,2,2,2"/>
- <tile id="872" terrain="0,3,0,3"/>
- <tile id="873" terrain="3,3,3,3"/>
- <tile id="874" terrain="3,0,3,0"/>
- <tile id="875" terrain="3,0,3,3"/>
- <tile id="876" terrain="0,3,3,3"/>
- <tile id="877" terrain="3,3,3,3"/>
- <tile id="879" terrain="0,4,0,4"/>
- <tile id="880" terrain="4,4,4,4"/>
- <tile id="881" terrain="4,0,4,0"/>
- <tile id="882" terrain="4,0,4,4"/>
- <tile id="883" terrain="0,4,4,4"/>
- <tile id="899" terrain="0,2,0,0"/>
- <tile id="900" terrain="2,2,0,0"/>
- <tile id="901" terrain="2,0,0,0"/>
- <tile id="902" terrain="0,0,0,1"/>
- <tile id="903" terrain="0,0,1,0"/>
- <tile id="904" terrain="0,3,0,0"/>
- <tile id="905" terrain="3,3,0,0"/>
- <tile id="906" terrain="3,0,0,0"/>
- <tile id="911" terrain="0,4,0,0"/>
- <tile id="912" terrain="4,4,0,0"/>
- <tile id="913" terrain="4,0,0,0"/>
- <tile id="928" terrain="0,0,0,0" probability="0.01"/>
- <tile id="929" terrain="0,0,0,0" probability="0.01"/>
- <tile id="931" terrain="1,1,1,0"/>
- <tile id="932" terrain="1,1,0,0"/>
- <tile id="933" terrain="1,1,0,1"/>
- <tile id="934" terrain="0,1,0,0"/>
- <tile id="935" terrain="1,0,0,0"/>
- <tile id="960" terrain="0,0,0,0" probability="0.01"/>
- <tile id="963" terrain="1,0,1,0"/>
- <tile id="964" terrain="0,0,0,0"/>
- <tile id="965" terrain="0,1,0,1"/>
- <tile id="992" terrain="2,2,2,2" probability="0.01"/>
- <tile id="993" terrain="2,2,2,2" probability="0.01"/>
- <tile id="994" terrain="2,2,2,2" probability="0.01"/>
- <tile id="995" terrain="1,0,1,1"/>
- <tile id="996" terrain="0,0,1,1"/>
- <tile id="997" terrain="0,1,1,1"/>
+ <tile id="845" probability="0.25"/>
+ <tile id="928" probability="0.01"/>
+ <tile id="929" probability="0.01"/>
+ <tile id="960" probability="0.01"/>
+ <tile id="992" probability="0.01"/>
+ <tile id="993" probability="0.01"/>
+ <tile id="994" probability="0.01"/>
+ <wangsets>
+  <wangset name="Terrains" type="corner" tile="-1">
+   <wangcolor name="OverworldGrass" color="#ff0000" tile="928" probability="1"/>
+   <wangcolor name="OverworldWater" color="#00ff00" tile="800" probability="1"/>
+   <wangcolor name="OverworldDirt" color="#0000ff" tile="993" probability="1"/>
+   <wangcolor name="OverworldMountains" color="#ff7700" tile="907" probability="1"/>
+   <wangcolor name="OverworldTrees" color="#00e9ff" tile="846" probability="1"/>
+   <wangcolor name="PlatformGrass" color="#ff00d8" tile="322" probability="1"/>
+   <wangcolor name="PlatformBackground" color="#ffff00" tile="327" probability="1"/>
+   <wangcolor name="PlatformClouds" color="#a000ff" tile="489" probability="1"/>
+   <wangcolor name="PlatformBushes" color="#00ffa1" tile="496" probability="1"/>
+   <wangcolor name="PlatformBrick" color="#ffa8a8" tile="450" probability="1"/>
+   <wangcolor name="PlatformBackgroundDark" color="#b4a8ff" tile="335" probability="1"/>
+   <wangcolor name="TopDownWallTops" color="#96ffa7" tile="-1" probability="1"/>
+   <wangcolor name="TopDownFloors" color="#8e7848" tile="-1" probability="1"/>
+   <wangcolor name="TopDownWallshadows" color="#5a5a5a" tile="-1" probability="1"/>
+   <wangtile tileid="320" wangid="0,0,0,6,0,0,0,0"/>
+   <wangtile tileid="321" wangid="0,0,0,6,0,6,0,0"/>
+   <wangtile tileid="322" wangid="0,0,0,0,0,6,0,0"/>
+   <wangtile tileid="323" wangid="0,6,0,0,0,6,0,6"/>
+   <wangtile tileid="324" wangid="0,6,0,6,0,0,0,6"/>
+   <wangtile tileid="325" wangid="0,0,0,7,0,0,0,0"/>
+   <wangtile tileid="326" wangid="0,0,0,7,0,7,0,0"/>
+   <wangtile tileid="327" wangid="0,0,0,0,0,7,0,0"/>
+   <wangtile tileid="328" wangid="0,7,0,0,0,7,0,7"/>
+   <wangtile tileid="329" wangid="0,7,0,7,0,0,0,7"/>
+   <wangtile tileid="330" wangid="0,0,0,7,0,0,0,0"/>
+   <wangtile tileid="331" wangid="0,0,0,0,0,7,0,0"/>
+   <wangtile tileid="333" wangid="0,0,0,11,0,0,0,0"/>
+   <wangtile tileid="334" wangid="0,0,0,11,0,11,0,0"/>
+   <wangtile tileid="335" wangid="0,0,0,0,0,11,0,0"/>
+   <wangtile tileid="336" wangid="0,11,0,0,0,11,0,11"/>
+   <wangtile tileid="337" wangid="0,11,0,11,0,0,0,11"/>
+   <wangtile tileid="338" wangid="0,0,0,11,0,0,0,0"/>
+   <wangtile tileid="339" wangid="0,0,0,0,0,11,0,0"/>
+   <wangtile tileid="352" wangid="0,6,0,6,0,0,0,0"/>
+   <wangtile tileid="353" wangid="0,6,0,6,0,6,0,6"/>
+   <wangtile tileid="354" wangid="0,0,0,0,0,6,0,6"/>
+   <wangtile tileid="355" wangid="0,0,0,6,0,6,0,6"/>
+   <wangtile tileid="356" wangid="0,6,0,6,0,6,0,0"/>
+   <wangtile tileid="357" wangid="0,7,0,7,0,0,0,0"/>
+   <wangtile tileid="358" wangid="0,7,0,7,0,7,0,7"/>
+   <wangtile tileid="359" wangid="0,0,0,0,0,7,0,7"/>
+   <wangtile tileid="360" wangid="0,0,0,7,0,7,0,7"/>
+   <wangtile tileid="361" wangid="0,7,0,7,0,7,0,0"/>
+   <wangtile tileid="362" wangid="0,7,0,0,0,0,0,0"/>
+   <wangtile tileid="363" wangid="0,0,0,0,0,0,0,7"/>
+   <wangtile tileid="365" wangid="0,11,0,11,0,0,0,0"/>
+   <wangtile tileid="366" wangid="0,11,0,11,0,11,0,11"/>
+   <wangtile tileid="367" wangid="0,0,0,0,0,11,0,11"/>
+   <wangtile tileid="368" wangid="0,0,0,11,0,11,0,11"/>
+   <wangtile tileid="369" wangid="0,11,0,11,0,11,0,0"/>
+   <wangtile tileid="370" wangid="0,11,0,0,0,0,0,0"/>
+   <wangtile tileid="371" wangid="0,0,0,0,0,0,0,11"/>
+   <wangtile tileid="384" wangid="0,6,0,0,0,0,0,0"/>
+   <wangtile tileid="385" wangid="0,6,0,0,0,0,0,6"/>
+   <wangtile tileid="386" wangid="0,0,0,0,0,0,0,6"/>
+   <wangtile tileid="387" wangid="0,6,0,6,0,6,0,6"/>
+   <wangtile tileid="388" wangid="0,6,0,6,0,6,0,6"/>
+   <wangtile tileid="389" wangid="0,7,0,0,0,0,0,0"/>
+   <wangtile tileid="390" wangid="0,7,0,0,0,0,0,7"/>
+   <wangtile tileid="391" wangid="0,0,0,0,0,0,0,7"/>
+   <wangtile tileid="392" wangid="0,7,0,7,0,7,0,7"/>
+   <wangtile tileid="397" wangid="0,11,0,0,0,0,0,0"/>
+   <wangtile tileid="398" wangid="0,11,0,0,0,0,0,11"/>
+   <wangtile tileid="399" wangid="0,0,0,0,0,0,0,11"/>
+   <wangtile tileid="400" wangid="0,11,0,11,0,11,0,11"/>
+   <wangtile tileid="416" wangid="0,0,0,6,0,6,0,0"/>
+   <wangtile tileid="417" wangid="0,0,0,6,0,6,0,0"/>
+   <wangtile tileid="418" wangid="0,6,0,6,0,0,0,0"/>
+   <wangtile tileid="419" wangid="0,0,0,0,0,6,0,6"/>
+   <wangtile tileid="421" wangid="0,0,0,8,0,0,0,0"/>
+   <wangtile tileid="422" wangid="0,0,0,8,0,8,0,0"/>
+   <wangtile tileid="423" wangid="0,0,0,0,0,8,0,0"/>
+   <wangtile tileid="424" wangid="0,8,0,0,0,8,0,8"/>
+   <wangtile tileid="425" wangid="0,8,0,8,0,0,0,8"/>
+   <wangtile tileid="426" wangid="0,0,0,8,0,0,0,0"/>
+   <wangtile tileid="427" wangid="0,0,0,0,0,8,0,0"/>
+   <wangtile tileid="428" wangid="0,0,0,9,0,0,0,0"/>
+   <wangtile tileid="429" wangid="0,0,0,9,0,9,0,0"/>
+   <wangtile tileid="430" wangid="0,0,0,0,0,9,0,0"/>
+   <wangtile tileid="431" wangid="0,9,0,0,0,9,0,9"/>
+   <wangtile tileid="432" wangid="0,9,0,9,0,0,0,9"/>
+   <wangtile tileid="448" wangid="0,0,0,10,0,0,0,0"/>
+   <wangtile tileid="449" wangid="0,0,0,10,0,10,0,0"/>
+   <wangtile tileid="450" wangid="0,0,0,0,0,10,0,0"/>
+   <wangtile tileid="451" wangid="0,10,0,0,0,10,0,10"/>
+   <wangtile tileid="452" wangid="0,10,0,10,0,0,0,10"/>
+   <wangtile tileid="453" wangid="0,8,0,8,0,0,0,0"/>
+   <wangtile tileid="454" wangid="0,8,0,8,0,8,0,8"/>
+   <wangtile tileid="455" wangid="0,0,0,0,0,8,0,8"/>
+   <wangtile tileid="456" wangid="0,0,0,8,0,8,0,8"/>
+   <wangtile tileid="457" wangid="0,8,0,8,0,8,0,0"/>
+   <wangtile tileid="458" wangid="0,8,0,0,0,0,0,0"/>
+   <wangtile tileid="459" wangid="0,0,0,0,0,0,0,8"/>
+   <wangtile tileid="460" wangid="0,9,0,9,0,0,0,0"/>
+   <wangtile tileid="461" wangid="0,9,0,9,0,9,0,9"/>
+   <wangtile tileid="462" wangid="0,0,0,0,0,9,0,9"/>
+   <wangtile tileid="463" wangid="0,0,0,9,0,9,0,9"/>
+   <wangtile tileid="464" wangid="0,9,0,9,0,9,0,0"/>
+   <wangtile tileid="480" wangid="0,10,0,10,0,0,0,0"/>
+   <wangtile tileid="481" wangid="0,10,0,10,0,10,0,10"/>
+   <wangtile tileid="482" wangid="0,0,0,0,0,10,0,10"/>
+   <wangtile tileid="483" wangid="0,0,0,10,0,10,0,10"/>
+   <wangtile tileid="484" wangid="0,10,0,10,0,10,0,0"/>
+   <wangtile tileid="485" wangid="0,8,0,0,0,0,0,0"/>
+   <wangtile tileid="486" wangid="0,8,0,0,0,0,0,8"/>
+   <wangtile tileid="487" wangid="0,0,0,0,0,0,0,8"/>
+   <wangtile tileid="488" wangid="0,8,0,8,0,8,0,8"/>
+   <wangtile tileid="489" wangid="0,8,0,8,0,8,0,8"/>
+   <wangtile tileid="492" wangid="0,9,0,0,0,0,0,0"/>
+   <wangtile tileid="493" wangid="0,9,0,0,0,0,0,9"/>
+   <wangtile tileid="494" wangid="0,0,0,0,0,0,0,9"/>
+   <wangtile tileid="495" wangid="0,9,0,9,0,9,0,9"/>
+   <wangtile tileid="496" wangid="0,9,0,9,0,9,0,9"/>
+   <wangtile tileid="512" wangid="0,10,0,0,0,0,0,0"/>
+   <wangtile tileid="513" wangid="0,10,0,0,0,0,0,10"/>
+   <wangtile tileid="514" wangid="0,0,0,0,0,0,0,10"/>
+   <wangtile tileid="517" wangid="0,8,0,8,0,0,0,0"/>
+   <wangtile tileid="518" wangid="0,0,0,0,0,8,0,8"/>
+   <wangtile tileid="519" wangid="0,0,0,8,0,8,0,0"/>
+   <wangtile tileid="520" wangid="0,8,0,0,0,0,0,8"/>
+   <wangtile tileid="675" wangid="0,0,0,12,0,0,0,0"/>
+   <wangtile tileid="676" wangid="0,0,0,12,0,12,0,0"/>
+   <wangtile tileid="677" wangid="0,0,0,0,0,12,0,0"/>
+   <wangtile tileid="678" wangid="0,12,0,0,0,12,0,12"/>
+   <wangtile tileid="679" wangid="0,12,0,12,0,0,0,12"/>
+   <wangtile tileid="680" wangid="0,0,0,13,0,0,0,0"/>
+   <wangtile tileid="681" wangid="0,0,0,13,0,13,0,0"/>
+   <wangtile tileid="682" wangid="0,0,0,0,0,13,0,0"/>
+   <wangtile tileid="683" wangid="0,13,0,0,0,13,0,13"/>
+   <wangtile tileid="684" wangid="0,13,0,13,0,0,0,13"/>
+   <wangtile tileid="707" wangid="0,12,0,12,0,0,0,0"/>
+   <wangtile tileid="708" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="709" wangid="0,0,0,0,0,12,0,12"/>
+   <wangtile tileid="710" wangid="0,0,0,12,0,12,0,12"/>
+   <wangtile tileid="711" wangid="0,12,0,12,0,12,0,0"/>
+   <wangtile tileid="712" wangid="0,13,0,13,0,0,0,0"/>
+   <wangtile tileid="713" wangid="0,13,0,13,0,13,0,13"/>
+   <wangtile tileid="714" wangid="0,0,0,0,0,13,0,13"/>
+   <wangtile tileid="715" wangid="0,0,0,13,0,13,0,13"/>
+   <wangtile tileid="716" wangid="0,13,0,13,0,13,0,0"/>
+   <wangtile tileid="739" wangid="0,12,0,0,0,0,0,0"/>
+   <wangtile tileid="740" wangid="0,12,0,0,0,0,0,12"/>
+   <wangtile tileid="741" wangid="0,0,0,0,0,0,0,12"/>
+   <wangtile tileid="744" wangid="0,13,0,0,0,0,0,0"/>
+   <wangtile tileid="745" wangid="0,13,0,0,0,0,0,13"/>
+   <wangtile tileid="746" wangid="0,0,0,0,0,0,0,13"/>
+   <wangtile tileid="747" wangid="0,0,0,14,0,0,0,0"/>
+   <wangtile tileid="748" wangid="0,0,0,14,0,14,0,0"/>
+   <wangtile tileid="749" wangid="0,0,0,0,0,14,0,0"/>
+   <wangtile tileid="777" wangid="0,14,0,0,0,14,0,14"/>
+   <wangtile tileid="778" wangid="0,14,0,14,0,0,0,14"/>
+   <wangtile tileid="779" wangid="0,14,0,14,0,0,0,0"/>
+   <wangtile tileid="780" wangid="0,14,0,14,0,14,0,14"/>
+   <wangtile tileid="781" wangid="0,0,0,0,0,14,0,14"/>
+   <wangtile tileid="800" wangid="0,2,0,2,0,2,0,2"/>
+   <wangtile tileid="809" wangid="0,0,0,14,0,14,0,14"/>
+   <wangtile tileid="810" wangid="0,14,0,14,0,14,0,0"/>
+   <wangtile tileid="811" wangid="0,14,0,0,0,0,0,0"/>
+   <wangtile tileid="812" wangid="0,14,0,0,0,0,0,14"/>
+   <wangtile tileid="813" wangid="0,0,0,0,0,0,0,14"/>
+   <wangtile tileid="835" wangid="0,1,0,3,0,1,0,1"/>
+   <wangtile tileid="836" wangid="0,1,0,3,0,3,0,1"/>
+   <wangtile tileid="837" wangid="0,1,0,1,0,3,0,1"/>
+   <wangtile tileid="838" wangid="0,3,0,1,0,3,0,3"/>
+   <wangtile tileid="839" wangid="0,3,0,3,0,1,0,3"/>
+   <wangtile tileid="840" wangid="0,1,0,4,0,1,0,1"/>
+   <wangtile tileid="841" wangid="0,1,0,4,0,4,0,1"/>
+   <wangtile tileid="842" wangid="0,1,0,1,0,4,0,1"/>
+   <wangtile tileid="843" wangid="0,4,0,1,0,4,0,4"/>
+   <wangtile tileid="844" wangid="0,4,0,4,0,1,0,4"/>
+   <wangtile tileid="845" wangid="0,4,0,1,0,1,0,4"/>
+   <wangtile tileid="847" wangid="0,1,0,5,0,1,0,1"/>
+   <wangtile tileid="848" wangid="0,1,0,5,0,5,0,1"/>
+   <wangtile tileid="849" wangid="0,1,0,1,0,5,0,1"/>
+   <wangtile tileid="850" wangid="0,5,0,1,0,5,0,5"/>
+   <wangtile tileid="851" wangid="0,5,0,5,0,1,0,5"/>
+   <wangtile tileid="867" wangid="0,3,0,3,0,1,0,1"/>
+   <wangtile tileid="868" wangid="0,3,0,3,0,3,0,3"/>
+   <wangtile tileid="869" wangid="0,1,0,1,0,3,0,3"/>
+   <wangtile tileid="870" wangid="0,1,0,3,0,3,0,3"/>
+   <wangtile tileid="871" wangid="0,3,0,3,0,3,0,1"/>
+   <wangtile tileid="872" wangid="0,4,0,4,0,1,0,1"/>
+   <wangtile tileid="873" wangid="0,4,0,4,0,4,0,4"/>
+   <wangtile tileid="874" wangid="0,1,0,1,0,4,0,4"/>
+   <wangtile tileid="875" wangid="0,1,0,4,0,4,0,4"/>
+   <wangtile tileid="876" wangid="0,4,0,4,0,4,0,1"/>
+   <wangtile tileid="877" wangid="0,4,0,4,0,4,0,4"/>
+   <wangtile tileid="879" wangid="0,5,0,5,0,1,0,1"/>
+   <wangtile tileid="880" wangid="0,5,0,5,0,5,0,5"/>
+   <wangtile tileid="881" wangid="0,1,0,1,0,5,0,5"/>
+   <wangtile tileid="882" wangid="0,1,0,5,0,5,0,5"/>
+   <wangtile tileid="883" wangid="0,5,0,5,0,5,0,1"/>
+   <wangtile tileid="899" wangid="0,3,0,1,0,1,0,1"/>
+   <wangtile tileid="900" wangid="0,3,0,1,0,1,0,3"/>
+   <wangtile tileid="901" wangid="0,1,0,1,0,1,0,3"/>
+   <wangtile tileid="902" wangid="0,1,0,2,0,1,0,1"/>
+   <wangtile tileid="903" wangid="0,1,0,1,0,2,0,1"/>
+   <wangtile tileid="904" wangid="0,4,0,1,0,1,0,1"/>
+   <wangtile tileid="905" wangid="0,4,0,1,0,1,0,4"/>
+   <wangtile tileid="906" wangid="0,1,0,1,0,1,0,4"/>
+   <wangtile tileid="911" wangid="0,5,0,1,0,1,0,1"/>
+   <wangtile tileid="912" wangid="0,5,0,1,0,1,0,5"/>
+   <wangtile tileid="913" wangid="0,1,0,1,0,1,0,5"/>
+   <wangtile tileid="928" wangid="0,1,0,1,0,1,0,1"/>
+   <wangtile tileid="929" wangid="0,1,0,1,0,1,0,1"/>
+   <wangtile tileid="931" wangid="0,2,0,1,0,2,0,2"/>
+   <wangtile tileid="932" wangid="0,2,0,1,0,1,0,2"/>
+   <wangtile tileid="933" wangid="0,2,0,2,0,1,0,2"/>
+   <wangtile tileid="934" wangid="0,2,0,1,0,1,0,1"/>
+   <wangtile tileid="935" wangid="0,1,0,1,0,1,0,2"/>
+   <wangtile tileid="960" wangid="0,1,0,1,0,1,0,1"/>
+   <wangtile tileid="963" wangid="0,1,0,1,0,2,0,2"/>
+   <wangtile tileid="964" wangid="0,1,0,1,0,1,0,1"/>
+   <wangtile tileid="965" wangid="0,2,0,2,0,1,0,1"/>
+   <wangtile tileid="992" wangid="0,3,0,3,0,3,0,3"/>
+   <wangtile tileid="993" wangid="0,3,0,3,0,3,0,3"/>
+   <wangtile tileid="994" wangid="0,3,0,3,0,3,0,3"/>
+   <wangtile tileid="995" wangid="0,1,0,2,0,2,0,2"/>
+   <wangtile tileid="996" wangid="0,1,0,2,0,2,0,1"/>
+   <wangtile tileid="997" wangid="0,2,0,2,0,2,0,1"/>
+  </wangset>
+ </wangsets>
 </tileset>
