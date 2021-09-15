@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.5" tiledversion="1.7.2" name="FRBPlatformer" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
- <image source="FRBPlatformer.png" width="512" height="512"/>
+ <image source="FRBeefcakeSpritesheet.png" width="512" height="512"/>
  <tile id="387" probability="0.01"/>
  <tile id="388" probability="0.01"/>
  <tile id="392" probability="0.01"/>

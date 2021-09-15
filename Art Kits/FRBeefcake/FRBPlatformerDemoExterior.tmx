@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="1">
- <tileset firstgid="1" source="FRBPlatformerTileset.tsx"/>
+ <tileset firstgid="1" source="FRBeefcake.tsx"/>
  <layer id="9" name="Sky" width="30" height="30">
   <data encoding="csv">
 802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,802,

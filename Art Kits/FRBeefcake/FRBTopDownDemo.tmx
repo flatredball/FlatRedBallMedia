@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="25" nextobjectid="6">
- <tileset firstgid="1" source="FRBPlatformerTileset.tsx"/>
+ <tileset firstgid="1" source="FRBeefcake.tsx"/>
  <layer id="12" name="Floor" width="30" height="30">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
