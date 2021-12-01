@@ -11,3 +11,5 @@ This is a tiny art kit intended to make a small artillary game like Gorilla.bas.
 - Gear/machinery particles
 - Fire particles
 - Explosion animation
+
+![Artillary Jam art pack](./artillaryJam.png)
