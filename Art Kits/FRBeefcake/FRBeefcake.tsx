@@ -10,6 +10,7 @@
  <tile id="418" probability="0.05"/>
  <tile id="419" probability="0.05"/>
  <tile id="488" probability="0.01"/>
+ <tile id="489" probability="0.01"/>
  <tile id="495" probability="0.01"/>
  <tile id="496" probability="0.01"/>
  <tile id="557" probability="0.01"/>
@@ -31,7 +32,7 @@
    <wangcolor name="PlatformBackground" color="#ffff00" tile="327" probability="1"/>
    <wangcolor name="PlatformClouds" color="#a000ff" tile="489" probability="1"/>
    <wangcolor name="PlatformBushes" color="#00ffa1" tile="496" probability="1"/>
-   <wangcolor name="PlatformBrick" color="#ffa8a8" tile="450" probability="1"/>
+   <wangcolor name="PlatformStone" color="#ffa8a8" tile="450" probability="1"/>
    <wangcolor name="PlatformBackgroundDark" color="#b4a8ff" tile="335" probability="1"/>
    <wangcolor name="TopDownWallTops" color="#96ffa7" tile="-1" probability="1"/>
    <wangcolor name="TopDownFloors" color="#8e7848" tile="-1" probability="1"/>
