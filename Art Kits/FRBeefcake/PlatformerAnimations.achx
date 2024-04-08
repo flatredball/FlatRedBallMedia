@@ -32,7 +32,7 @@
     <Name>CharacterWalkRight</Name>
     <Frame>
       <TextureName>FRBeefcakeSpritesheet.png</TextureName>
-      <FrameLength>0.1</FrameLength>
+      <FrameLength>0.15</FrameLength>
       <LeftCoordinate>0</LeftCoordinate>
       <RightCoordinate>16</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
@@ -41,7 +41,7 @@
     </Frame>
     <Frame>
       <TextureName>FRBeefcakeSpritesheet.png</TextureName>
-      <FrameLength>0.1</FrameLength>
+      <FrameLength>0.15</FrameLength>
       <LeftCoordinate>16</LeftCoordinate>
       <RightCoordinate>32</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
@@ -54,7 +54,7 @@
     <Frame>
       <FlipHorizontal>true</FlipHorizontal>
       <TextureName>FRBeefcakeSpritesheet.png</TextureName>
-      <FrameLength>0.1</FrameLength>
+      <FrameLength>0.15</FrameLength>
       <LeftCoordinate>0</LeftCoordinate>
       <RightCoordinate>16</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
@@ -64,11 +64,89 @@
     <Frame>
       <FlipHorizontal>true</FlipHorizontal>
       <TextureName>FRBeefcakeSpritesheet.png</TextureName>
-      <FrameLength>0.1</FrameLength>
+      <FrameLength>0.15</FrameLength>
       <LeftCoordinate>16</LeftCoordinate>
       <RightCoordinate>32</RightCoordinate>
       <TopCoordinate>0</TopCoordinate>
       <BottomCoordinate>32</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>CharacterWalkDown</Name>
+    <Frame>
+      <TextureName>FRBeefcakeSpritesheet.png</TextureName>
+      <FrameLength>0.125</FrameLength>
+      <LeftCoordinate>96</LeftCoordinate>
+      <RightCoordinate>112</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+    <Frame>
+      <TextureName>FRBeefcakeSpritesheet.png</TextureName>
+      <FrameLength>0.125</FrameLength>
+      <LeftCoordinate>112</LeftCoordinate>
+      <RightCoordinate>128</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+    <Frame>
+      <TextureName>FRBeefcakeSpritesheet.png</TextureName>
+      <FrameLength>0.125</FrameLength>
+      <LeftCoordinate>96</LeftCoordinate>
+      <RightCoordinate>112</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+    <Frame>
+      <TextureName>FRBeefcakeSpritesheet.png</TextureName>
+      <FrameLength>0.125</FrameLength>
+      <LeftCoordinate>128</LeftCoordinate>
+      <RightCoordinate>144</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>CharacterWalkUp</Name>
+    <Frame>
+      <TextureName>FRBeefcakeSpritesheet.png</TextureName>
+      <FrameLength>0.125</FrameLength>
+      <LeftCoordinate>144</LeftCoordinate>
+      <RightCoordinate>160</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+    <Frame>
+      <TextureName>FRBeefcakeSpritesheet.png</TextureName>
+      <FrameLength>0.125</FrameLength>
+      <LeftCoordinate>160</LeftCoordinate>
+      <RightCoordinate>176</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+    <Frame>
+      <TextureName>FRBeefcakeSpritesheet.png</TextureName>
+      <FrameLength>0.125</FrameLength>
+      <LeftCoordinate>144</LeftCoordinate>
+      <RightCoordinate>160</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+    <Frame>
+      <TextureName>FRBeefcakeSpritesheet.png</TextureName>
+      <FrameLength>0.125</FrameLength>
+      <LeftCoordinate>176</LeftCoordinate>
+      <RightCoordinate>192</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
       <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
