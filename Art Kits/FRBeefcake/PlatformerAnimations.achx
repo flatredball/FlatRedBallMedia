@@ -77,37 +77,37 @@
     <Frame>
       <TextureName>FRBeefcakeSpritesheet.png</TextureName>
       <FrameLength>0.125</FrameLength>
-      <LeftCoordinate>96</LeftCoordinate>
-      <RightCoordinate>112</RightCoordinate>
-      <TopCoordinate>32</TopCoordinate>
-      <BottomCoordinate>64</BottomCoordinate>
+      <LeftCoordinate>416</LeftCoordinate>
+      <RightCoordinate>432</RightCoordinate>
+      <TopCoordinate>288</TopCoordinate>
+      <BottomCoordinate>320</BottomCoordinate>
       <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <TextureName>FRBeefcakeSpritesheet.png</TextureName>
       <FrameLength>0.125</FrameLength>
-      <LeftCoordinate>112</LeftCoordinate>
-      <RightCoordinate>128</RightCoordinate>
-      <TopCoordinate>32</TopCoordinate>
-      <BottomCoordinate>64</BottomCoordinate>
+      <LeftCoordinate>432</LeftCoordinate>
+      <RightCoordinate>448</RightCoordinate>
+      <TopCoordinate>288</TopCoordinate>
+      <BottomCoordinate>320</BottomCoordinate>
       <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <TextureName>FRBeefcakeSpritesheet.png</TextureName>
       <FrameLength>0.125</FrameLength>
-      <LeftCoordinate>96</LeftCoordinate>
-      <RightCoordinate>112</RightCoordinate>
-      <TopCoordinate>32</TopCoordinate>
-      <BottomCoordinate>64</BottomCoordinate>
+      <LeftCoordinate>416</LeftCoordinate>
+      <RightCoordinate>432</RightCoordinate>
+      <TopCoordinate>288</TopCoordinate>
+      <BottomCoordinate>320</BottomCoordinate>
       <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <TextureName>FRBeefcakeSpritesheet.png</TextureName>
       <FrameLength>0.125</FrameLength>
-      <LeftCoordinate>128</LeftCoordinate>
-      <RightCoordinate>144</RightCoordinate>
-      <TopCoordinate>32</TopCoordinate>
-      <BottomCoordinate>64</BottomCoordinate>
+      <LeftCoordinate>448</LeftCoordinate>
+      <RightCoordinate>464</RightCoordinate>
+      <TopCoordinate>288</TopCoordinate>
+      <BottomCoordinate>320</BottomCoordinate>
       <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
@@ -116,37 +116,76 @@
     <Frame>
       <TextureName>FRBeefcakeSpritesheet.png</TextureName>
       <FrameLength>0.125</FrameLength>
-      <LeftCoordinate>144</LeftCoordinate>
-      <RightCoordinate>160</RightCoordinate>
-      <TopCoordinate>32</TopCoordinate>
-      <BottomCoordinate>64</BottomCoordinate>
+      <LeftCoordinate>464</LeftCoordinate>
+      <RightCoordinate>480</RightCoordinate>
+      <TopCoordinate>288</TopCoordinate>
+      <BottomCoordinate>320</BottomCoordinate>
       <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <TextureName>FRBeefcakeSpritesheet.png</TextureName>
       <FrameLength>0.125</FrameLength>
-      <LeftCoordinate>160</LeftCoordinate>
-      <RightCoordinate>176</RightCoordinate>
-      <TopCoordinate>32</TopCoordinate>
-      <BottomCoordinate>64</BottomCoordinate>
+      <LeftCoordinate>480</LeftCoordinate>
+      <RightCoordinate>496</RightCoordinate>
+      <TopCoordinate>288</TopCoordinate>
+      <BottomCoordinate>320</BottomCoordinate>
       <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <TextureName>FRBeefcakeSpritesheet.png</TextureName>
       <FrameLength>0.125</FrameLength>
-      <LeftCoordinate>144</LeftCoordinate>
-      <RightCoordinate>160</RightCoordinate>
-      <TopCoordinate>32</TopCoordinate>
-      <BottomCoordinate>64</BottomCoordinate>
+      <LeftCoordinate>464</LeftCoordinate>
+      <RightCoordinate>480</RightCoordinate>
+      <TopCoordinate>288</TopCoordinate>
+      <BottomCoordinate>320</BottomCoordinate>
       <RelativeY>16</RelativeY>
     </Frame>
     <Frame>
       <TextureName>FRBeefcakeSpritesheet.png</TextureName>
       <FrameLength>0.125</FrameLength>
-      <LeftCoordinate>176</LeftCoordinate>
-      <RightCoordinate>192</RightCoordinate>
-      <TopCoordinate>32</TopCoordinate>
-      <BottomCoordinate>64</BottomCoordinate>
+      <LeftCoordinate>496</LeftCoordinate>
+      <RightCoordinate>512</RightCoordinate>
+      <TopCoordinate>288</TopCoordinate>
+      <BottomCoordinate>320</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>CharacterWalkSide</Name>
+    <Frame>
+      <TextureName>FRBeefcakeSpritesheet.png</TextureName>
+      <FrameLength>0.125</FrameLength>
+      <LeftCoordinate>368</LeftCoordinate>
+      <RightCoordinate>384</RightCoordinate>
+      <TopCoordinate>288</TopCoordinate>
+      <BottomCoordinate>320</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+    <Frame>
+      <TextureName>FRBeefcakeSpritesheet.png</TextureName>
+      <FrameLength>0.125</FrameLength>
+      <LeftCoordinate>384</LeftCoordinate>
+      <RightCoordinate>400</RightCoordinate>
+      <TopCoordinate>288</TopCoordinate>
+      <BottomCoordinate>320</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+    <Frame>
+      <TextureName>FRBeefcakeSpritesheet.png</TextureName>
+      <FrameLength>0.125</FrameLength>
+      <LeftCoordinate>400</LeftCoordinate>
+      <RightCoordinate>416</RightCoordinate>
+      <TopCoordinate>288</TopCoordinate>
+      <BottomCoordinate>320</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+    </Frame>
+    <Frame>
+      <TextureName>FRBeefcakeSpritesheet.png</TextureName>
+      <FrameLength>0.125</FrameLength>
+      <LeftCoordinate>384</LeftCoordinate>
+      <RightCoordinate>400</RightCoordinate>
+      <TopCoordinate>288</TopCoordinate>
+      <BottomCoordinate>320</BottomCoordinate>
       <RelativeY>16</RelativeY>
     </Frame>
   </AnimationChain>
